@@ -1,0 +1,24 @@
+https://api.scb.se/OV0104/v1/doris/sv/ssd/START/EN/EN0105/EN0105A/ElAnvSNI2007Ar
+
+json:
+
+{
+  "query": [
+    {
+      "code": "AnvOmrade",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "64",
+          "StamF",
+          "Överf",
+          "65",
+          "Tot"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "px"
+  }
+}

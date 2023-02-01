@@ -1,0 +1,30 @@
+https://api.scb.se/OV0104/v1/doris/sv/ssd/START/BE/BE0101/BE0101A/BefolkningR1860N
+
+json:
+
+{
+  "query": [
+    {
+      "code": "Alder",
+      "selection": {
+        "filter": "vs:ÅlderTotA",
+        "values": [
+          "tot"
+        ]
+      }
+    },
+    {
+      "code": "Kon",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "1",
+          "2"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "px"
+  }
+}
