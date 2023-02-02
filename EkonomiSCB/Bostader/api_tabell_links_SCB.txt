@@ -1,0 +1,14 @@
+Försäljning av bostadsrätter efter region:
+https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__BO__BO0501__BO0501C/FastprisBRFRegionAr/table/tableViewLayout1/
+
+Fastighetsprisindex för fritidshus (1981=100) efter region och år:
+https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__BO__BO0501__BO0501A/FastpiFritidRegAr/table/tableViewLayout1/
+
+Fastighetsprisindex för lantbruk, 1992=100 efter region och år:
+https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__BO__BO0501__BO0501A/FastpiLantbrukRegAr/table/tableViewLayout1/
+
+Fastighetsprisindex för permanenta småhus (1981=100) efter region. År 1975 - 2022:
+https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__BO__BO0501__BO0501A/FastpiPSRegAr/
+
+Genomsnittlig årshyra per kvm för riket efter region, tabellinnehåll och år:
+https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__BO__BO0406__BO0406G/BO0406TabAh/table/tableViewLayout1/
