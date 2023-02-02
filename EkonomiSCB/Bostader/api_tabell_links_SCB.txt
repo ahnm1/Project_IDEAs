@@ -1,4 +1,7 @@
 Yttre parametrar som kan påverka priset på en bostad:
+Källa: 
+https://www.opendoor.com/articles/factors-that-influence-home-value
+
 1. Jämför
 - Liknande i området, färsk-såld = bättre indikator för stunden.
 - Andra med liknande utförande.
