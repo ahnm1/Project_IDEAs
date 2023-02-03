@@ -1,4 +1,5 @@
 year,antal,medelpris_tkr,medianpris_tkr
+comments,[]
 2000,72392,390,173
 2001,72096,441,225
 2002,76297,526,295
@@ -23,5 +24,5 @@ year,antal,medelpris_tkr,medianpris_tkr
 2021,125920,2781,2300
 infofile,BO0501
 updated,2022-06-27T09:02:00Z
-label,Försäljning av bostadsrätter efter år och tabellinnehåll
+label,FÃ¶rsÃ¤ljning av bostadsrÃ¤tter efter Ã¥r och tabellinnehÃ¥ll
 source,SCB
