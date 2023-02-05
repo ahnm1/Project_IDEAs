@@ -19,15 +19,15 @@ class PlotXY:
         return ['green' if x == min(df) else 'red' if x == max(df) else 'black' for x in df]
 
 
-    def plot_data(self, df, x, y, title):
+    def plot_data(self, df, x, y):#, title):
         # fig = go.Figure()
 
-        fig = px.scatter(
+        fig = px.line(
             df, 
             x = x,
             y = y,
-            color = self.set_max_min_color(df['layoffs']),
-            title = title
+            # color = self.set_max_min_color(df['layoffs']),
+            # title = title
             )
         return fig
 
@@ -45,9 +45,11 @@ if __name__ == '__main__':
                 ]
             )
     plotting = PlotXY()
-    data     = plotting.get_data('/merge/' + 'clean_konkurser_1994-2022_from_api.csv')
-    title    = 'Individuals layed off because of bankruptcy'
-    set_layout(plotting.plot_data(data, 'date', 'layoffs', title))
+    data     = plotting.get_data('/Bostader/clean/clean_Tillförsel_av_el-energi.csv')
+    # title    = 'Individuals layed off because of bankruptcy'
+    
+    # år,Brutto,Netto,Egenanvändning
+    set_layout(plotting.plot_data(data, 'år', 'Brutto'))#, title))
     
     app.run_server(debug=True, use_reloader=True)
 
