@@ -79,7 +79,7 @@ if __name__ =='__main__':
     filepath = CURR_DIR_PATH + '/EkonomiSCB/Bostader/'
 
     ## Poke here to find nice data
-    scb  = SCB('sv', 'EN', 'EN0105', 'EN0105A', 'ElProdAr')#, 'BO', 'BO0406', 'BO0406G', 'BO0406TabAh')
+    scb  = SCB('sv', 'BO', 'BO0406', 'BO0406G', 'BO0406TabAh')
     # pprint(scb.info())
     
 
